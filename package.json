@@ -1,0 +1,29 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "node js blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect ./index.js localhost 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SunnTruonw/Nodejs_blog.git"
+  },
+  "keywords": [
+    "blog",
+    "node",
+    "js"
+  ],
+  "author": "SunnTruow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SunnTruonw/Nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/SunnTruonw/Nodejs_blog#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
